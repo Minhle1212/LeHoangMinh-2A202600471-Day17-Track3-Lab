@@ -1,0 +1,59 @@
+{
+  "episodes": [
+    {
+      "episode_id": "ep_1777011066474",
+      "start_timestamp": 1777011066.4743097,
+      "last_timestamp": 1777011066.4744554,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What testing framework should I use for Python?",
+          "timestamp": 1777011066.4743097
+        },
+        {
+          "role": "assistant",
+          "content": "I recommend pytest for Python testing.",
+          "timestamp": 1777011066.4744554
+        }
+      ],
+      "message_count": 2,
+      "summary": "What testing framework should I use for Python?",
+      "topic_tags": [
+        "code"
+      ],
+      "trigger_role": "user",
+      "memory_type": "episodic",
+      "mood": "neutral",
+      "outcome": "",
+      "duration": 0.0001456737518310547
+    },
+    {
+      "episode_id": "ep_1777011066475",
+      "start_timestamp": 1777011066.475395,
+      "last_timestamp": 1777011066.4755368,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I prefer having 80% code coverage",
+          "timestamp": 1777011066.475395
+        },
+        {
+          "role": "assistant",
+          "content": "I'll set up pytest with coverage reporting.",
+          "timestamp": 1777011066.4755368
+        }
+      ],
+      "message_count": 2,
+      "summary": "I prefer having 80% code coverage",
+      "topic_tags": [
+        "code"
+      ],
+      "trigger_role": "user",
+      "memory_type": "episodic",
+      "mood": "neutral",
+      "outcome": "",
+      "duration": 0.0001418590545654297
+    }
+  ],
+  "session_id": "bench_4637e926"
+}

@@ -1,0 +1,58 @@
+{
+  "episodes": [
+    {
+      "episode_id": "ep_1777011066128",
+      "start_timestamp": 1777011066.12885,
+      "last_timestamp": 1777011066.1299512,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I'm getting a TypeError in my Python code",
+          "timestamp": 1777011066.12885
+        },
+        {
+          "role": "assistant",
+          "content": "Please share the error message and relevant code.",
+          "timestamp": 1777011066.1299512
+        }
+      ],
+      "message_count": 2,
+      "summary": "I'm getting a TypeError in my Python code",
+      "topic_tags": [
+        "code",
+        "error"
+      ],
+      "trigger_role": "user",
+      "memory_type": "episodic",
+      "mood": "neutral",
+      "outcome": "",
+      "duration": 0.0011012554168701172
+    },
+    {
+      "episode_id": "ep_1777011066130",
+      "start_timestamp": 1777011066.1305518,
+      "last_timestamp": 1777011066.1306834,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Here's the stack trace...",
+          "timestamp": 1777011066.1305518
+        },
+        {
+          "role": "assistant",
+          "content": "The error occurs because you're passing a string where an int is expected.",
+          "timestamp": 1777011066.1306834
+        }
+      ],
+      "message_count": 2,
+      "summary": "Here's the stack trace...",
+      "topic_tags": [],
+      "trigger_role": "user",
+      "memory_type": "episodic",
+      "mood": "neutral",
+      "outcome": "",
+      "duration": 0.0001316070556640625
+    }
+  ],
+  "session_id": "bench_eb38adf7"
+}

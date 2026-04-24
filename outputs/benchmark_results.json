@@ -11,15 +11,15 @@
         "total_tokens": 59,
         "max_messages": 100,
         "max_tokens": 4000,
-        "session_id": "bench_f9b3294c"
+        "session_id": "bench_eb38adf7"
       },
       "episodic": {
         "type": "JSONEpisodicMemory",
         "memory_type": "Episodic",
         "total_episodes": 2,
         "max_episodes": 500,
-        "storage_path": "D:\\AI\\LeHoangMinh-2A202600471-Day17-Track3-Lab\\memory_backends\\..\\data\\episodes_bench_f9b3294c.json",
-        "session_id": "bench_f9b3294c"
+        "storage_path": "D:\\AI\\LeHoangMinh-2A202600471-Day17-Track3-Lab\\memory_backends\\..\\data\\episodes_bench_eb38adf7.json",
+        "session_id": "bench_eb38adf7"
       },
       "redis": {
         "type": "RedisMemory",
@@ -28,7 +28,7 @@
         "host": "localhost",
         "port": 6379,
         "ttl_seconds": 604800,
-        "session_id": "bench_f9b3294c",
+        "session_id": "bench_eb38adf7",
         "profile_keys": [],
         "message_count": 0
       },
@@ -39,7 +39,7 @@
         "days_back": 30,
         "max_visits": 1000,
         "history_path": "C:\\Users\\lehoa\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History",
-        "session_id": "bench_f9b3294c"
+        "session_id": "bench_eb38adf7"
       },
       "context_window": {
         "max_total_tokens": 4000,
@@ -59,7 +59,7 @@
       "FACTUALITY"
     ],
     "context_window_size": 8,
-    "duration_ms": 3.93,
+    "duration_ms": 2.68,
     "memory_operations": 11
   },
   {
@@ -74,15 +74,15 @@
         "total_tokens": 41,
         "max_messages": 100,
         "max_tokens": 4000,
-        "session_id": "bench_cee89b2c"
+        "session_id": "bench_dce58083"
       },
       "episodic": {
         "type": "JSONEpisodicMemory",
         "memory_type": "Episodic",
         "total_episodes": 2,
         "max_episodes": 500,
-        "storage_path": "D:\\AI\\LeHoangMinh-2A202600471-Day17-Track3-Lab\\memory_backends\\..\\data\\episodes_bench_cee89b2c.json",
-        "session_id": "bench_cee89b2c"
+        "storage_path": "D:\\AI\\LeHoangMinh-2A202600471-Day17-Track3-Lab\\memory_backends\\..\\data\\episodes_bench_dce58083.json",
+        "session_id": "bench_dce58083"
       },
       "redis": {
         "type": "RedisMemory",
@@ -91,7 +91,7 @@
         "host": "localhost",
         "port": 6379,
         "ttl_seconds": 604800,
-        "session_id": "bench_cee89b2c",
+        "session_id": "bench_dce58083",
         "profile_keys": [],
         "message_count": 0
       },
@@ -102,7 +102,7 @@
         "days_back": 30,
         "max_visits": 1000,
         "history_path": "C:\\Users\\lehoa\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History",
-        "session_id": "bench_cee89b2c"
+        "session_id": "bench_dce58083"
       },
       "context_window": {
         "max_total_tokens": 4000,
@@ -122,7 +122,7 @@
       "PREFERENCES"
     ],
     "context_window_size": 8,
-    "duration_ms": 3.78,
+    "duration_ms": 1.7,
     "memory_operations": 11
   },
   {
@@ -137,15 +137,15 @@
         "total_tokens": 37,
         "max_messages": 100,
         "max_tokens": 4000,
-        "session_id": "bench_d03870ac"
+        "session_id": "bench_d052293e"
       },
       "episodic": {
         "type": "JSONEpisodicMemory",
         "memory_type": "Episodic",
         "total_episodes": 1,
         "max_episodes": 500,
-        "storage_path": "D:\\AI\\LeHoangMinh-2A202600471-Day17-Track3-Lab\\memory_backends\\..\\data\\episodes_bench_d03870ac.json",
-        "session_id": "bench_d03870ac"
+        "storage_path": "D:\\AI\\LeHoangMinh-2A202600471-Day17-Track3-Lab\\memory_backends\\..\\data\\episodes_bench_d052293e.json",
+        "session_id": "bench_d052293e"
       },
       "redis": {
         "type": "RedisMemory",
@@ -154,7 +154,7 @@
         "host": "localhost",
         "port": 6379,
         "ttl_seconds": 604800,
-        "session_id": "bench_d03870ac",
+        "session_id": "bench_d052293e",
         "profile_keys": [],
         "message_count": 0
       },
@@ -165,7 +165,7 @@
         "days_back": 30,
         "max_visits": 1000,
         "history_path": "C:\\Users\\lehoa\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History",
-        "session_id": "bench_d03870ac"
+        "session_id": "bench_d052293e"
       },
       "context_window": {
         "max_total_tokens": 4000,
@@ -183,7 +183,7 @@
       "NAVIGATION"
     ],
     "context_window_size": 5,
-    "duration_ms": 32.79,
+    "duration_ms": 29.76,
     "memory_operations": 7
   },
   {
@@ -198,15 +198,15 @@
         "total_tokens": 60,
         "max_messages": 100,
         "max_tokens": 4000,
-        "session_id": "bench_60c50abc"
+        "session_id": "bench_79c0d2ee"
       },
       "episodic": {
         "type": "JSONEpisodicMemory",
         "memory_type": "Episodic",
         "total_episodes": 3,
         "max_episodes": 500,
-        "storage_path": "D:\\AI\\LeHoangMinh-2A202600471-Day17-Track3-Lab\\memory_backends\\..\\data\\episodes_bench_60c50abc.json",
-        "session_id": "bench_60c50abc"
+        "storage_path": "D:\\AI\\LeHoangMinh-2A202600471-Day17-Track3-Lab\\memory_backends\\..\\data\\episodes_bench_79c0d2ee.json",
+        "session_id": "bench_79c0d2ee"
       },
       "redis": {
         "type": "RedisMemory",
@@ -215,7 +215,7 @@
         "host": "localhost",
         "port": 6379,
         "ttl_seconds": 604800,
-        "session_id": "bench_60c50abc",
+        "session_id": "bench_79c0d2ee",
         "profile_keys": [],
         "message_count": 0
       },
@@ -226,7 +226,7 @@
         "days_back": 30,
         "max_visits": 1000,
         "history_path": "C:\\Users\\lehoa\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History",
-        "session_id": "bench_60c50abc"
+        "session_id": "bench_79c0d2ee"
       },
       "context_window": {
         "max_total_tokens": 4000,
@@ -247,7 +247,7 @@
       "GENERAL"
     ],
     "context_window_size": 10,
-    "duration_ms": 2.31,
+    "duration_ms": 1.79,
     "memory_operations": 13
   },
   {
@@ -262,15 +262,15 @@
         "total_tokens": 67,
         "max_messages": 100,
         "max_tokens": 4000,
-        "session_id": "bench_385aa39a"
+        "session_id": "bench_db1a4d1e"
       },
       "episodic": {
         "type": "JSONEpisodicMemory",
         "memory_type": "Episodic",
         "total_episodes": 2,
         "max_episodes": 500,
-        "storage_path": "D:\\AI\\LeHoangMinh-2A202600471-Day17-Track3-Lab\\memory_backends\\..\\data\\episodes_bench_385aa39a.json",
-        "session_id": "bench_385aa39a"
+        "storage_path": "D:\\AI\\LeHoangMinh-2A202600471-Day17-Track3-Lab\\memory_backends\\..\\data\\episodes_bench_db1a4d1e.json",
+        "session_id": "bench_db1a4d1e"
       },
       "redis": {
         "type": "RedisMemory",
@@ -279,7 +279,7 @@
         "host": "localhost",
         "port": 6379,
         "ttl_seconds": 604800,
-        "session_id": "bench_385aa39a",
+        "session_id": "bench_db1a4d1e",
         "profile_keys": [],
         "message_count": 0
       },
@@ -290,7 +290,7 @@
         "days_back": 30,
         "max_visits": 1000,
         "history_path": "C:\\Users\\lehoa\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History",
-        "session_id": "bench_385aa39a"
+        "session_id": "bench_db1a4d1e"
       },
       "context_window": {
         "max_total_tokens": 4000,
@@ -311,7 +311,7 @@
       "FACTUALITY"
     ],
     "context_window_size": 9,
-    "duration_ms": 3.42,
+    "duration_ms": 1.8,
     "memory_operations": 13
   },
   {
@@ -326,15 +326,15 @@
         "total_tokens": 57,
         "max_messages": 100,
         "max_tokens": 4000,
-        "session_id": "bench_86d9e63b"
+        "session_id": "bench_2e169c2b"
       },
       "episodic": {
         "type": "JSONEpisodicMemory",
         "memory_type": "Episodic",
         "total_episodes": 2,
         "max_episodes": 500,
-        "storage_path": "D:\\AI\\LeHoangMinh-2A202600471-Day17-Track3-Lab\\memory_backends\\..\\data\\episodes_bench_86d9e63b.json",
-        "session_id": "bench_86d9e63b"
+        "storage_path": "D:\\AI\\LeHoangMinh-2A202600471-Day17-Track3-Lab\\memory_backends\\..\\data\\episodes_bench_2e169c2b.json",
+        "session_id": "bench_2e169c2b"
       },
       "redis": {
         "type": "RedisMemory",
@@ -343,7 +343,7 @@
         "host": "localhost",
         "port": 6379,
         "ttl_seconds": 604800,
-        "session_id": "bench_86d9e63b",
+        "session_id": "bench_2e169c2b",
         "profile_keys": [],
         "message_count": 0
       },
@@ -354,7 +354,7 @@
         "days_back": 30,
         "max_visits": 1000,
         "history_path": "C:\\Users\\lehoa\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History",
-        "session_id": "bench_86d9e63b"
+        "session_id": "bench_2e169c2b"
       },
       "context_window": {
         "max_total_tokens": 4000,
@@ -374,7 +374,7 @@
       "PREFERENCES"
     ],
     "context_window_size": 8,
-    "duration_ms": 2.47,
+    "duration_ms": 2.8,
     "memory_operations": 11
   },
   {
@@ -389,15 +389,15 @@
         "total_tokens": 58,
         "max_messages": 100,
         "max_tokens": 4000,
-        "session_id": "bench_36afc782"
+        "session_id": "bench_c17e21c6"
       },
       "episodic": {
         "type": "JSONEpisodicMemory",
         "memory_type": "Episodic",
         "total_episodes": 2,
         "max_episodes": 500,
-        "storage_path": "D:\\AI\\LeHoangMinh-2A202600471-Day17-Track3-Lab\\memory_backends\\..\\data\\episodes_bench_36afc782.json",
-        "session_id": "bench_36afc782"
+        "storage_path": "D:\\AI\\LeHoangMinh-2A202600471-Day17-Track3-Lab\\memory_backends\\..\\data\\episodes_bench_c17e21c6.json",
+        "session_id": "bench_c17e21c6"
       },
       "redis": {
         "type": "RedisMemory",
@@ -406,7 +406,7 @@
         "host": "localhost",
         "port": 6379,
         "ttl_seconds": 604800,
-        "session_id": "bench_36afc782",
+        "session_id": "bench_c17e21c6",
         "profile_keys": [],
         "message_count": 0
       },
@@ -417,7 +417,7 @@
         "days_back": 30,
         "max_visits": 1000,
         "history_path": "C:\\Users\\lehoa\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History",
-        "session_id": "bench_36afc782"
+        "session_id": "bench_c17e21c6"
       },
       "context_window": {
         "max_total_tokens": 4000,
@@ -437,7 +437,7 @@
       "GENERAL"
     ],
     "context_window_size": 8,
-    "duration_ms": 2.53,
+    "duration_ms": 2.14,
     "memory_operations": 11
   },
   {
@@ -452,15 +452,15 @@
         "total_tokens": 51,
         "max_messages": 100,
         "max_tokens": 4000,
-        "session_id": "bench_20d18620"
+        "session_id": "bench_e41fd54e"
       },
       "episodic": {
         "type": "JSONEpisodicMemory",
         "memory_type": "Episodic",
         "total_episodes": 2,
         "max_episodes": 500,
-        "storage_path": "D:\\AI\\LeHoangMinh-2A202600471-Day17-Track3-Lab\\memory_backends\\..\\data\\episodes_bench_20d18620.json",
-        "session_id": "bench_20d18620"
+        "storage_path": "D:\\AI\\LeHoangMinh-2A202600471-Day17-Track3-Lab\\memory_backends\\..\\data\\episodes_bench_e41fd54e.json",
+        "session_id": "bench_e41fd54e"
       },
       "redis": {
         "type": "RedisMemory",
@@ -469,7 +469,7 @@
         "host": "localhost",
         "port": 6379,
         "ttl_seconds": 604800,
-        "session_id": "bench_20d18620",
+        "session_id": "bench_e41fd54e",
         "profile_keys": [],
         "message_count": 0
       },
@@ -480,7 +480,7 @@
         "days_back": 30,
         "max_visits": 1000,
         "history_path": "C:\\Users\\lehoa\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History",
-        "session_id": "bench_20d18620"
+        "session_id": "bench_e41fd54e"
       },
       "context_window": {
         "max_total_tokens": 4000,
@@ -501,7 +501,7 @@
       "PREFERENCES"
     ],
     "context_window_size": 9,
-    "duration_ms": 2.65,
+    "duration_ms": 4.14,
     "memory_operations": 13
   },
   {
@@ -516,15 +516,15 @@
         "total_tokens": 60,
         "max_messages": 100,
         "max_tokens": 4000,
-        "session_id": "bench_73524976"
+        "session_id": "bench_747d7c34"
       },
       "episodic": {
         "type": "JSONEpisodicMemory",
         "memory_type": "Episodic",
         "total_episodes": 2,
         "max_episodes": 500,
-        "storage_path": "D:\\AI\\LeHoangMinh-2A202600471-Day17-Track3-Lab\\memory_backends\\..\\data\\episodes_bench_73524976.json",
-        "session_id": "bench_73524976"
+        "storage_path": "D:\\AI\\LeHoangMinh-2A202600471-Day17-Track3-Lab\\memory_backends\\..\\data\\episodes_bench_747d7c34.json",
+        "session_id": "bench_747d7c34"
       },
       "redis": {
         "type": "RedisMemory",
@@ -533,7 +533,7 @@
         "host": "localhost",
         "port": 6379,
         "ttl_seconds": 604800,
-        "session_id": "bench_73524976",
+        "session_id": "bench_747d7c34",
         "profile_keys": [],
         "message_count": 0
       },
@@ -544,7 +544,7 @@
         "days_back": 30,
         "max_visits": 1000,
         "history_path": "C:\\Users\\lehoa\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History",
-        "session_id": "bench_73524976"
+        "session_id": "bench_747d7c34"
       },
       "context_window": {
         "max_total_tokens": 4000,
@@ -565,7 +565,7 @@
       "GENERAL"
     ],
     "context_window_size": 9,
-    "duration_ms": 4.09,
+    "duration_ms": 1.86,
     "memory_operations": 13
   },
   {
@@ -580,15 +580,15 @@
         "total_tokens": 54,
         "max_messages": 100,
         "max_tokens": 4000,
-        "session_id": "bench_54f17248"
+        "session_id": "bench_4637e926"
       },
       "episodic": {
         "type": "JSONEpisodicMemory",
         "memory_type": "Episodic",
         "total_episodes": 2,
         "max_episodes": 500,
-        "storage_path": "D:\\AI\\LeHoangMinh-2A202600471-Day17-Track3-Lab\\memory_backends\\..\\data\\episodes_bench_54f17248.json",
-        "session_id": "bench_54f17248"
+        "storage_path": "D:\\AI\\LeHoangMinh-2A202600471-Day17-Track3-Lab\\memory_backends\\..\\data\\episodes_bench_4637e926.json",
+        "session_id": "bench_4637e926"
       },
       "redis": {
         "type": "RedisMemory",
@@ -597,7 +597,7 @@
         "host": "localhost",
         "port": 6379,
         "ttl_seconds": 604800,
-        "session_id": "bench_54f17248",
+        "session_id": "bench_4637e926",
         "profile_keys": [],
         "message_count": 0
       },
@@ -608,7 +608,7 @@
         "days_back": 30,
         "max_visits": 1000,
         "history_path": "C:\\Users\\lehoa\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History",
-        "session_id": "bench_54f17248"
+        "session_id": "bench_4637e926"
       },
       "context_window": {
         "max_total_tokens": 4000,
@@ -629,7 +629,7 @@
       "GENERAL"
     ],
     "context_window_size": 9,
-    "duration_ms": 4.12,
+    "duration_ms": 2.42,
     "memory_operations": 13
   }
 ]

@@ -1,0 +1,60 @@
+{
+  "episodes": [
+    {
+      "episode_id": "ep_1777010575711",
+      "start_timestamp": 1777010575.7114086,
+      "last_timestamp": 1777010575.711626,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Explain what Docker containers are",
+          "timestamp": 1777010575.7114086
+        },
+        {
+          "role": "assistant",
+          "content": "Docker containers package your application with all its dependencies.",
+          "timestamp": 1777010575.711626
+        }
+      ],
+      "message_count": 2,
+      "summary": "Explain what Docker containers are",
+      "topic_tags": [],
+      "trigger_role": "user",
+      "memory_type": "episodic",
+      "mood": "neutral",
+      "outcome": "",
+      "duration": 0.000217437744140625
+    },
+    {
+      "episode_id": "ep_1777010575713",
+      "start_timestamp": 1777010575.7131329,
+      "last_timestamp": 1777010575.713749,
+      "messages": [
+        {
+          "role": "user",
+          "content": "How do I create a Dockerfile?",
+          "timestamp": 1777010575.7131329
+        },
+        {
+          "role": "user",
+          "content": "I prefer using docker-compose for multi-container setups",
+          "timestamp": 1777010575.7133775
+        },
+        {
+          "role": "assistant",
+          "content": "I'll create a docker-compose.yml for your project.",
+          "timestamp": 1777010575.713749
+        }
+      ],
+      "message_count": 3,
+      "summary": "How do I create a Dockerfile?... (+1 more)",
+      "topic_tags": [],
+      "trigger_role": "user",
+      "memory_type": "episodic",
+      "mood": "neutral",
+      "outcome": "",
+      "duration": 0.0006160736083984375
+    }
+  ],
+  "session_id": "bench_b71570cd"
+}

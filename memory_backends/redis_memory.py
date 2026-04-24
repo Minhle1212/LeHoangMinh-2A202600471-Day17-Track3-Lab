@@ -51,12 +51,13 @@ class RedisMemory(BaseMemory):
                     decode_responses=True,
                     socket_connect_timeout=3,
                     socket_timeout=3,
+                    retry_on_timeout=False,
                 )
-                # Test connection with a fast command instead of ping()
-                # to honour the socket timeouts set above.
-                self._redis.echo("ok")
-                self._connected = True
-            except (TimeoutError, redis.exceptions.ConnectionError, redis.exceptions.TimeoutError, Exception):
+                # No connection test here — each operation checks self._connected
+                # before attempting anything, so we skip the blocking ping/echo.
+                # Connection is lazily verified on first real use.
+                self._connected = False
+            except Exception:
                 self._connected = False
 
     def add(self, message: dict) -> None:
