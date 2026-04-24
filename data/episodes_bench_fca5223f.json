@@ -1,0 +1,57 @@
+{
+  "episodes": [
+    {
+      "episode_id": "ep_1777005110980",
+      "start_timestamp": 1777005110.980124,
+      "last_timestamp": 1777005110.980301,
+      "messages": [
+        {
+          "role": "user",
+          "content": "How do I call a REST API in Python?",
+          "timestamp": 1777005110.980124
+        },
+        {
+          "role": "assistant",
+          "content": "You can use the requests library to call REST APIs.",
+          "timestamp": 1777005110.980301
+        }
+      ],
+      "message_count": 2,
+      "summary": "How do I call a REST API in Python?",
+      "topic_tags": [
+        "code"
+      ],
+      "trigger_role": "user",
+      "memory_type": "episodic",
+      "mood": "neutral",
+      "outcome": "",
+      "duration": 0.00017690658569335938
+    },
+    {
+      "episode_id": "ep_1777005110980",
+      "start_timestamp": 1777005110.9809718,
+      "last_timestamp": 1777005110.9810665,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I need to handle authentication with JWT tokens",
+          "timestamp": 1777005110.9809718
+        },
+        {
+          "role": "assistant",
+          "content": "I'll add JWT authentication to the API calls.",
+          "timestamp": 1777005110.9810665
+        }
+      ],
+      "message_count": 2,
+      "summary": "I need to handle authentication with JWT tokens",
+      "topic_tags": [],
+      "trigger_role": "user",
+      "memory_type": "episodic",
+      "mood": "neutral",
+      "outcome": "",
+      "duration": 9.465217590332031e-05
+    }
+  ],
+  "session_id": "bench_fca5223f"
+}

@@ -1,0 +1,57 @@
+{
+  "episodes": [
+    {
+      "episode_id": "ep_1777006941101",
+      "start_timestamp": 1777006941.1014395,
+      "last_timestamp": 1777006941.1015117,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I prefer using dark mode in my editor",
+          "timestamp": 1777006941.1014395
+        },
+        {
+          "role": "assistant",
+          "content": "Got it, I'll keep that in mind.",
+          "timestamp": 1777006941.1015117
+        }
+      ],
+      "message_count": 2,
+      "summary": "I prefer using dark mode in my editor",
+      "topic_tags": [],
+      "trigger_role": "user",
+      "memory_type": "episodic",
+      "mood": "neutral",
+      "outcome": "",
+      "duration": 7.224082946777344e-05
+    },
+    {
+      "episode_id": "ep_1777006941101",
+      "start_timestamp": 1777006941.1019251,
+      "last_timestamp": 1777006941.1019914,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create a new React project",
+          "timestamp": 1777006941.1019251
+        },
+        {
+          "role": "assistant",
+          "content": "I'll create a new React project with TypeScript.",
+          "timestamp": 1777006941.1019914
+        }
+      ],
+      "message_count": 2,
+      "summary": "Create a new React project",
+      "topic_tags": [
+        "project"
+      ],
+      "trigger_role": "user",
+      "memory_type": "episodic",
+      "mood": "neutral",
+      "outcome": "",
+      "duration": 6.628036499023438e-05
+    }
+  ],
+  "session_id": "bench_91209a3f"
+}

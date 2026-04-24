@@ -1,0 +1,84 @@
+{
+  "episodes": [
+    {
+      "episode_id": "ep_1777006941153",
+      "start_timestamp": 1777006941.153392,
+      "last_timestamp": 1777006941.1534605,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Review this function for best practices",
+          "timestamp": 1777006941.153392
+        },
+        {
+          "role": "assistant",
+          "content": "I'll review the code for performance and style issues.",
+          "timestamp": 1777006941.1534605
+        }
+      ],
+      "message_count": 2,
+      "summary": "Review this function for best practices",
+      "topic_tags": [
+        "code"
+      ],
+      "trigger_role": "user",
+      "memory_type": "episodic",
+      "mood": "neutral",
+      "outcome": "",
+      "duration": 6.842613220214844e-05
+    },
+    {
+      "episode_id": "ep_1777006941153",
+      "start_timestamp": 1777006941.1538854,
+      "last_timestamp": 1777006941.1539564,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Can you refactor it to use async/await?",
+          "timestamp": 1777006941.1538854
+        },
+        {
+          "role": "assistant",
+          "content": "I'll refactor the function to use async/await.",
+          "timestamp": 1777006941.1539564
+        }
+      ],
+      "message_count": 2,
+      "summary": "Can you refactor it to use async/await?",
+      "topic_tags": [],
+      "trigger_role": "user",
+      "memory_type": "episodic",
+      "mood": "neutral",
+      "outcome": "",
+      "duration": 7.104873657226562e-05
+    },
+    {
+      "episode_id": "ep_1777006941154",
+      "start_timestamp": 1777006941.1543913,
+      "last_timestamp": 1777006941.1544752,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I prefer having error handling with try-catch",
+          "timestamp": 1777006941.1543913
+        },
+        {
+          "role": "assistant",
+          "content": "I'll add proper error handling.",
+          "timestamp": 1777006941.1544752
+        }
+      ],
+      "message_count": 2,
+      "summary": "I prefer having error handling with try-catch",
+      "topic_tags": [
+        "error"
+      ],
+      "trigger_role": "user",
+      "memory_type": "episodic",
+      "mood": "neutral",
+      "outcome": "",
+      "duration": 8.392333984375e-05
+    }
+  ],
+  "session_id": "bench_c6131e97"
+}

@@ -1,0 +1,635 @@
+[
+  {
+    "conversation_name": "Code Debug Session",
+    "total_turns": 5,
+    "total_tokens": 90,
+    "backend_stats": {
+      "buffer": {
+        "type": "ConversationBufferMemory",
+        "memory_type": "Short-term",
+        "message_count": 5,
+        "total_tokens": 59,
+        "max_messages": 100,
+        "max_tokens": 4000,
+        "session_id": "bench_f9b3294c"
+      },
+      "episodic": {
+        "type": "JSONEpisodicMemory",
+        "memory_type": "Episodic",
+        "total_episodes": 2,
+        "max_episodes": 500,
+        "storage_path": "D:\\AI\\LeHoangMinh-2A202600471-Day17-Track3-Lab\\memory_backends\\..\\data\\episodes_bench_f9b3294c.json",
+        "session_id": "bench_f9b3294c"
+      },
+      "redis": {
+        "type": "RedisMemory",
+        "memory_type": "Long-term",
+        "connected": false,
+        "host": "localhost",
+        "port": 6379,
+        "ttl_seconds": 604800,
+        "session_id": "bench_f9b3294c",
+        "profile_keys": [],
+        "message_count": 0
+      },
+      "chrome": {
+        "type": "ChromeHistoryMemory",
+        "memory_type": "Semantic (Browser)",
+        "visit_count": 1000,
+        "days_back": 30,
+        "max_visits": 1000,
+        "history_path": "C:\\Users\\lehoa\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History",
+        "session_id": "bench_f9b3294c"
+      },
+      "context_window": {
+        "max_total_tokens": 4000,
+        "max_recent_messages": 10,
+        "priority_levels": {
+          "system": 3,
+          "assistant": 2,
+          "user": 1
+        }
+      }
+    },
+    "router_intents": [
+      "GENERAL",
+      "GENERAL",
+      "GENERAL",
+      "GENERAL",
+      "FACTUALITY"
+    ],
+    "context_window_size": 8,
+    "duration_ms": 3.93,
+    "memory_operations": 11
+  },
+  {
+    "conversation_name": "Project Setup",
+    "total_turns": 5,
+    "total_tokens": 72,
+    "backend_stats": {
+      "buffer": {
+        "type": "ConversationBufferMemory",
+        "memory_type": "Short-term",
+        "message_count": 5,
+        "total_tokens": 41,
+        "max_messages": 100,
+        "max_tokens": 4000,
+        "session_id": "bench_cee89b2c"
+      },
+      "episodic": {
+        "type": "JSONEpisodicMemory",
+        "memory_type": "Episodic",
+        "total_episodes": 2,
+        "max_episodes": 500,
+        "storage_path": "D:\\AI\\LeHoangMinh-2A202600471-Day17-Track3-Lab\\memory_backends\\..\\data\\episodes_bench_cee89b2c.json",
+        "session_id": "bench_cee89b2c"
+      },
+      "redis": {
+        "type": "RedisMemory",
+        "memory_type": "Long-term",
+        "connected": false,
+        "host": "localhost",
+        "port": 6379,
+        "ttl_seconds": 604800,
+        "session_id": "bench_cee89b2c",
+        "profile_keys": [],
+        "message_count": 0
+      },
+      "chrome": {
+        "type": "ChromeHistoryMemory",
+        "memory_type": "Semantic (Browser)",
+        "visit_count": 1000,
+        "days_back": 30,
+        "max_visits": 1000,
+        "history_path": "C:\\Users\\lehoa\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History",
+        "session_id": "bench_cee89b2c"
+      },
+      "context_window": {
+        "max_total_tokens": 4000,
+        "max_recent_messages": 10,
+        "priority_levels": {
+          "system": 3,
+          "assistant": 2,
+          "user": 1
+        }
+      }
+    },
+    "router_intents": [
+      "PREFERENCES",
+      "GENERAL",
+      "GENERAL",
+      "GENERAL",
+      "PREFERENCES"
+    ],
+    "context_window_size": 8,
+    "duration_ms": 3.78,
+    "memory_operations": 11
+  },
+  {
+    "conversation_name": "Browser History Query",
+    "total_turns": 3,
+    "total_tokens": 60,
+    "backend_stats": {
+      "buffer": {
+        "type": "ConversationBufferMemory",
+        "memory_type": "Short-term",
+        "message_count": 3,
+        "total_tokens": 37,
+        "max_messages": 100,
+        "max_tokens": 4000,
+        "session_id": "bench_d03870ac"
+      },
+      "episodic": {
+        "type": "JSONEpisodicMemory",
+        "memory_type": "Episodic",
+        "total_episodes": 1,
+        "max_episodes": 500,
+        "storage_path": "D:\\AI\\LeHoangMinh-2A202600471-Day17-Track3-Lab\\memory_backends\\..\\data\\episodes_bench_d03870ac.json",
+        "session_id": "bench_d03870ac"
+      },
+      "redis": {
+        "type": "RedisMemory",
+        "memory_type": "Long-term",
+        "connected": false,
+        "host": "localhost",
+        "port": 6379,
+        "ttl_seconds": 604800,
+        "session_id": "bench_d03870ac",
+        "profile_keys": [],
+        "message_count": 0
+      },
+      "chrome": {
+        "type": "ChromeHistoryMemory",
+        "memory_type": "Semantic (Browser)",
+        "visit_count": 1000,
+        "days_back": 30,
+        "max_visits": 1000,
+        "history_path": "C:\\Users\\lehoa\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History",
+        "session_id": "bench_d03870ac"
+      },
+      "context_window": {
+        "max_total_tokens": 4000,
+        "max_recent_messages": 10,
+        "priority_levels": {
+          "system": 3,
+          "assistant": 2,
+          "user": 1
+        }
+      }
+    },
+    "router_intents": [
+      "NAVIGATION",
+      "GENERAL",
+      "NAVIGATION"
+    ],
+    "context_window_size": 5,
+    "duration_ms": 32.79,
+    "memory_operations": 7
+  },
+  {
+    "conversation_name": "Code Review",
+    "total_turns": 6,
+    "total_tokens": 110,
+    "backend_stats": {
+      "buffer": {
+        "type": "ConversationBufferMemory",
+        "memory_type": "Short-term",
+        "message_count": 6,
+        "total_tokens": 60,
+        "max_messages": 100,
+        "max_tokens": 4000,
+        "session_id": "bench_60c50abc"
+      },
+      "episodic": {
+        "type": "JSONEpisodicMemory",
+        "memory_type": "Episodic",
+        "total_episodes": 3,
+        "max_episodes": 500,
+        "storage_path": "D:\\AI\\LeHoangMinh-2A202600471-Day17-Track3-Lab\\memory_backends\\..\\data\\episodes_bench_60c50abc.json",
+        "session_id": "bench_60c50abc"
+      },
+      "redis": {
+        "type": "RedisMemory",
+        "memory_type": "Long-term",
+        "connected": false,
+        "host": "localhost",
+        "port": 6379,
+        "ttl_seconds": 604800,
+        "session_id": "bench_60c50abc",
+        "profile_keys": [],
+        "message_count": 0
+      },
+      "chrome": {
+        "type": "ChromeHistoryMemory",
+        "memory_type": "Semantic (Browser)",
+        "visit_count": 1000,
+        "days_back": 30,
+        "max_visits": 1000,
+        "history_path": "C:\\Users\\lehoa\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History",
+        "session_id": "bench_60c50abc"
+      },
+      "context_window": {
+        "max_total_tokens": 4000,
+        "max_recent_messages": 10,
+        "priority_levels": {
+          "system": 3,
+          "assistant": 2,
+          "user": 1
+        }
+      }
+    },
+    "router_intents": [
+      "FACTUALITY",
+      "GENERAL",
+      "GENERAL",
+      "FACTUALITY",
+      "PREFERENCES",
+      "GENERAL"
+    ],
+    "context_window_size": 10,
+    "duration_ms": 2.31,
+    "memory_operations": 13
+  },
+  {
+    "conversation_name": "API Integration",
+    "total_turns": 6,
+    "total_tokens": 103,
+    "backend_stats": {
+      "buffer": {
+        "type": "ConversationBufferMemory",
+        "memory_type": "Short-term",
+        "message_count": 6,
+        "total_tokens": 67,
+        "max_messages": 100,
+        "max_tokens": 4000,
+        "session_id": "bench_385aa39a"
+      },
+      "episodic": {
+        "type": "JSONEpisodicMemory",
+        "memory_type": "Episodic",
+        "total_episodes": 2,
+        "max_episodes": 500,
+        "storage_path": "D:\\AI\\LeHoangMinh-2A202600471-Day17-Track3-Lab\\memory_backends\\..\\data\\episodes_bench_385aa39a.json",
+        "session_id": "bench_385aa39a"
+      },
+      "redis": {
+        "type": "RedisMemory",
+        "memory_type": "Long-term",
+        "connected": false,
+        "host": "localhost",
+        "port": 6379,
+        "ttl_seconds": 604800,
+        "session_id": "bench_385aa39a",
+        "profile_keys": [],
+        "message_count": 0
+      },
+      "chrome": {
+        "type": "ChromeHistoryMemory",
+        "memory_type": "Semantic (Browser)",
+        "visit_count": 1000,
+        "days_back": 30,
+        "max_visits": 1000,
+        "history_path": "C:\\Users\\lehoa\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History",
+        "session_id": "bench_385aa39a"
+      },
+      "context_window": {
+        "max_total_tokens": 4000,
+        "max_recent_messages": 10,
+        "priority_levels": {
+          "system": 3,
+          "assistant": 2,
+          "user": 1
+        }
+      }
+    },
+    "router_intents": [
+      "FACTUALITY",
+      "GENERAL",
+      "GENERAL",
+      "FACTUALITY",
+      "PREFERENCES",
+      "FACTUALITY"
+    ],
+    "context_window_size": 9,
+    "duration_ms": 3.42,
+    "memory_operations": 13
+  },
+  {
+    "conversation_name": "Database Design",
+    "total_turns": 5,
+    "total_tokens": 95,
+    "backend_stats": {
+      "buffer": {
+        "type": "ConversationBufferMemory",
+        "memory_type": "Short-term",
+        "message_count": 5,
+        "total_tokens": 57,
+        "max_messages": 100,
+        "max_tokens": 4000,
+        "session_id": "bench_86d9e63b"
+      },
+      "episodic": {
+        "type": "JSONEpisodicMemory",
+        "memory_type": "Episodic",
+        "total_episodes": 2,
+        "max_episodes": 500,
+        "storage_path": "D:\\AI\\LeHoangMinh-2A202600471-Day17-Track3-Lab\\memory_backends\\..\\data\\episodes_bench_86d9e63b.json",
+        "session_id": "bench_86d9e63b"
+      },
+      "redis": {
+        "type": "RedisMemory",
+        "memory_type": "Long-term",
+        "connected": false,
+        "host": "localhost",
+        "port": 6379,
+        "ttl_seconds": 604800,
+        "session_id": "bench_86d9e63b",
+        "profile_keys": [],
+        "message_count": 0
+      },
+      "chrome": {
+        "type": "ChromeHistoryMemory",
+        "memory_type": "Semantic (Browser)",
+        "visit_count": 1000,
+        "days_back": 30,
+        "max_visits": 1000,
+        "history_path": "C:\\Users\\lehoa\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History",
+        "session_id": "bench_86d9e63b"
+      },
+      "context_window": {
+        "max_total_tokens": 4000,
+        "max_recent_messages": 10,
+        "priority_levels": {
+          "system": 3,
+          "assistant": 2,
+          "user": 1
+        }
+      }
+    },
+    "router_intents": [
+      "GENERAL",
+      "GENERAL",
+      "GENERAL",
+      "GENERAL",
+      "PREFERENCES"
+    ],
+    "context_window_size": 8,
+    "duration_ms": 2.47,
+    "memory_operations": 11
+  },
+  {
+    "conversation_name": "Learning New Topic",
+    "total_turns": 5,
+    "total_tokens": 93,
+    "backend_stats": {
+      "buffer": {
+        "type": "ConversationBufferMemory",
+        "memory_type": "Short-term",
+        "message_count": 5,
+        "total_tokens": 58,
+        "max_messages": 100,
+        "max_tokens": 4000,
+        "session_id": "bench_36afc782"
+      },
+      "episodic": {
+        "type": "JSONEpisodicMemory",
+        "memory_type": "Episodic",
+        "total_episodes": 2,
+        "max_episodes": 500,
+        "storage_path": "D:\\AI\\LeHoangMinh-2A202600471-Day17-Track3-Lab\\memory_backends\\..\\data\\episodes_bench_36afc782.json",
+        "session_id": "bench_36afc782"
+      },
+      "redis": {
+        "type": "RedisMemory",
+        "memory_type": "Long-term",
+        "connected": false,
+        "host": "localhost",
+        "port": 6379,
+        "ttl_seconds": 604800,
+        "session_id": "bench_36afc782",
+        "profile_keys": [],
+        "message_count": 0
+      },
+      "chrome": {
+        "type": "ChromeHistoryMemory",
+        "memory_type": "Semantic (Browser)",
+        "visit_count": 1000,
+        "days_back": 30,
+        "max_visits": 1000,
+        "history_path": "C:\\Users\\lehoa\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History",
+        "session_id": "bench_36afc782"
+      },
+      "context_window": {
+        "max_total_tokens": 4000,
+        "max_recent_messages": 10,
+        "priority_levels": {
+          "system": 3,
+          "assistant": 2,
+          "user": 1
+        }
+      }
+    },
+    "router_intents": [
+      "FACTUALITY",
+      "GENERAL",
+      "FACTUALITY",
+      "PREFERENCES",
+      "GENERAL"
+    ],
+    "context_window_size": 8,
+    "duration_ms": 2.53,
+    "memory_operations": 11
+  },
+  {
+    "conversation_name": "Bug Investigation",
+    "total_turns": 6,
+    "total_tokens": 85,
+    "backend_stats": {
+      "buffer": {
+        "type": "ConversationBufferMemory",
+        "memory_type": "Short-term",
+        "message_count": 6,
+        "total_tokens": 51,
+        "max_messages": 100,
+        "max_tokens": 4000,
+        "session_id": "bench_20d18620"
+      },
+      "episodic": {
+        "type": "JSONEpisodicMemory",
+        "memory_type": "Episodic",
+        "total_episodes": 2,
+        "max_episodes": 500,
+        "storage_path": "D:\\AI\\LeHoangMinh-2A202600471-Day17-Track3-Lab\\memory_backends\\..\\data\\episodes_bench_20d18620.json",
+        "session_id": "bench_20d18620"
+      },
+      "redis": {
+        "type": "RedisMemory",
+        "memory_type": "Long-term",
+        "connected": false,
+        "host": "localhost",
+        "port": 6379,
+        "ttl_seconds": 604800,
+        "session_id": "bench_20d18620",
+        "profile_keys": [],
+        "message_count": 0
+      },
+      "chrome": {
+        "type": "ChromeHistoryMemory",
+        "memory_type": "Semantic (Browser)",
+        "visit_count": 1000,
+        "days_back": 30,
+        "max_visits": 1000,
+        "history_path": "C:\\Users\\lehoa\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History",
+        "session_id": "bench_20d18620"
+      },
+      "context_window": {
+        "max_total_tokens": 4000,
+        "max_recent_messages": 10,
+        "priority_levels": {
+          "system": 3,
+          "assistant": 2,
+          "user": 1
+        }
+      }
+    },
+    "router_intents": [
+      "FACTUALITY",
+      "GENERAL",
+      "GENERAL",
+      "GENERAL",
+      "GENERAL",
+      "PREFERENCES"
+    ],
+    "context_window_size": 9,
+    "duration_ms": 2.65,
+    "memory_operations": 13
+  },
+  {
+    "conversation_name": "Configuration Management",
+    "total_turns": 6,
+    "total_tokens": 96,
+    "backend_stats": {
+      "buffer": {
+        "type": "ConversationBufferMemory",
+        "memory_type": "Short-term",
+        "message_count": 6,
+        "total_tokens": 60,
+        "max_messages": 100,
+        "max_tokens": 4000,
+        "session_id": "bench_73524976"
+      },
+      "episodic": {
+        "type": "JSONEpisodicMemory",
+        "memory_type": "Episodic",
+        "total_episodes": 2,
+        "max_episodes": 500,
+        "storage_path": "D:\\AI\\LeHoangMinh-2A202600471-Day17-Track3-Lab\\memory_backends\\..\\data\\episodes_bench_73524976.json",
+        "session_id": "bench_73524976"
+      },
+      "redis": {
+        "type": "RedisMemory",
+        "memory_type": "Long-term",
+        "connected": false,
+        "host": "localhost",
+        "port": 6379,
+        "ttl_seconds": 604800,
+        "session_id": "bench_73524976",
+        "profile_keys": [],
+        "message_count": 0
+      },
+      "chrome": {
+        "type": "ChromeHistoryMemory",
+        "memory_type": "Semantic (Browser)",
+        "visit_count": 1000,
+        "days_back": 30,
+        "max_visits": 1000,
+        "history_path": "C:\\Users\\lehoa\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History",
+        "session_id": "bench_73524976"
+      },
+      "context_window": {
+        "max_total_tokens": 4000,
+        "max_recent_messages": 10,
+        "priority_levels": {
+          "system": 3,
+          "assistant": 2,
+          "user": 1
+        }
+      }
+    },
+    "router_intents": [
+      "GENERAL",
+      "GENERAL",
+      "PREFERENCES",
+      "GENERAL",
+      "GENERAL",
+      "GENERAL"
+    ],
+    "context_window_size": 9,
+    "duration_ms": 4.09,
+    "memory_operations": 13
+  },
+  {
+    "conversation_name": "Testing Strategy",
+    "total_turns": 6,
+    "total_tokens": 89,
+    "backend_stats": {
+      "buffer": {
+        "type": "ConversationBufferMemory",
+        "memory_type": "Short-term",
+        "message_count": 6,
+        "total_tokens": 54,
+        "max_messages": 100,
+        "max_tokens": 4000,
+        "session_id": "bench_54f17248"
+      },
+      "episodic": {
+        "type": "JSONEpisodicMemory",
+        "memory_type": "Episodic",
+        "total_episodes": 2,
+        "max_episodes": 500,
+        "storage_path": "D:\\AI\\LeHoangMinh-2A202600471-Day17-Track3-Lab\\memory_backends\\..\\data\\episodes_bench_54f17248.json",
+        "session_id": "bench_54f17248"
+      },
+      "redis": {
+        "type": "RedisMemory",
+        "memory_type": "Long-term",
+        "connected": false,
+        "host": "localhost",
+        "port": 6379,
+        "ttl_seconds": 604800,
+        "session_id": "bench_54f17248",
+        "profile_keys": [],
+        "message_count": 0
+      },
+      "chrome": {
+        "type": "ChromeHistoryMemory",
+        "memory_type": "Semantic (Browser)",
+        "visit_count": 1000,
+        "days_back": 30,
+        "max_visits": 1000,
+        "history_path": "C:\\Users\\lehoa\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History",
+        "session_id": "bench_54f17248"
+      },
+      "context_window": {
+        "max_total_tokens": 4000,
+        "max_recent_messages": 10,
+        "priority_levels": {
+          "system": 3,
+          "assistant": 2,
+          "user": 1
+        }
+      }
+    },
+    "router_intents": [
+      "GENERAL",
+      "GENERAL",
+      "PREFERENCES",
+      "GENERAL",
+      "FACTUALITY",
+      "GENERAL"
+    ],
+    "context_window_size": 9,
+    "duration_ms": 4.12,
+    "memory_operations": 13
+  }
+]

@@ -1,0 +1,80 @@
+{
+  "episodes": [
+    {
+      "episode_id": "ep_1777006940703",
+      "start_timestamp": 1777006940.7031412,
+      "last_timestamp": 1777006940.7031565,
+      "messages": [
+        {
+          "role": "user",
+          "content": "User message 0",
+          "timestamp": 1777006940.7031412
+        },
+        {
+          "role": "assistant",
+          "content": "Assistant response 0",
+          "timestamp": 1777006940.7031565
+        }
+      ],
+      "message_count": 2,
+      "summary": "User message 0",
+      "topic_tags": [],
+      "trigger_role": "user",
+      "memory_type": "episodic",
+      "mood": "productive",
+      "outcome": "",
+      "duration": 1.52587890625e-05
+    },
+    {
+      "episode_id": "ep_1777006940703",
+      "start_timestamp": 1777006940.703565,
+      "last_timestamp": 1777006940.7035792,
+      "messages": [
+        {
+          "role": "user",
+          "content": "User message 1",
+          "timestamp": 1777006940.703565
+        },
+        {
+          "role": "assistant",
+          "content": "Assistant response 1",
+          "timestamp": 1777006940.7035792
+        }
+      ],
+      "message_count": 2,
+      "summary": "User message 1",
+      "topic_tags": [],
+      "trigger_role": "user",
+      "memory_type": "episodic",
+      "mood": "productive",
+      "outcome": "",
+      "duration": 1.430511474609375e-05
+    },
+    {
+      "episode_id": "ep_1777006940703",
+      "start_timestamp": 1777006940.7039201,
+      "last_timestamp": 1777006940.7039475,
+      "messages": [
+        {
+          "role": "user",
+          "content": "User message 2",
+          "timestamp": 1777006940.7039201
+        },
+        {
+          "role": "assistant",
+          "content": "Assistant response 2",
+          "timestamp": 1777006940.7039475
+        }
+      ],
+      "message_count": 2,
+      "summary": "User message 2",
+      "topic_tags": [],
+      "trigger_role": "user",
+      "memory_type": "episodic",
+      "mood": "productive",
+      "outcome": "",
+      "duration": 2.7418136596679688e-05
+    }
+  ],
+  "session_id": "test_episodic_6fef4f1a"
+}

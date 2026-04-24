@@ -1,0 +1,57 @@
+{
+  "episodes": [
+    {
+      "episode_id": "ep_1777008310822",
+      "start_timestamp": 1777008310.8229282,
+      "last_timestamp": 1777008310.8231907,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Design a database schema for an e-commerce app",
+          "timestamp": 1777008310.8229282
+        },
+        {
+          "role": "assistant",
+          "content": "I'll create tables for users, products, orders, and reviews.",
+          "timestamp": 1777008310.8231907
+        }
+      ],
+      "message_count": 2,
+      "summary": "Design a database schema for an e-commerce app",
+      "topic_tags": [
+        "data"
+      ],
+      "trigger_role": "user",
+      "memory_type": "episodic",
+      "mood": "neutral",
+      "outcome": "",
+      "duration": 0.0002624988555908203
+    },
+    {
+      "episode_id": "ep_1777008310824",
+      "start_timestamp": 1777008310.8245306,
+      "last_timestamp": 1777008310.8247523,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Add support for multiple addresses per user",
+          "timestamp": 1777008310.8245306
+        },
+        {
+          "role": "assistant",
+          "content": "I'll add an addresses table linked to users.",
+          "timestamp": 1777008310.8247523
+        }
+      ],
+      "message_count": 2,
+      "summary": "Add support for multiple addresses per user",
+      "topic_tags": [],
+      "trigger_role": "user",
+      "memory_type": "episodic",
+      "mood": "neutral",
+      "outcome": "",
+      "duration": 0.00022172927856445312
+    }
+  ],
+  "session_id": "bench_07911426"
+}

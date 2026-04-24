@@ -1,0 +1,64 @@
+{
+  "episodes": [
+    {
+      "episode_id": "ep_1777006941315",
+      "start_timestamp": 1777006941.3159988,
+      "last_timestamp": 1777006941.3161974,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I need to configure logging for my app",
+          "timestamp": 1777006941.3159988
+        },
+        {
+          "role": "assistant",
+          "content": "I'll set up structured logging with rotation.",
+          "timestamp": 1777006941.3161974
+        }
+      ],
+      "message_count": 2,
+      "summary": "I need to configure logging for my app",
+      "topic_tags": [
+        "config"
+      ],
+      "trigger_role": "user",
+      "memory_type": "episodic",
+      "mood": "neutral",
+      "outcome": "",
+      "duration": 0.00019860267639160156
+    },
+    {
+      "episode_id": "ep_1777006941317",
+      "start_timestamp": 1777006941.3173687,
+      "last_timestamp": 1777006941.3176181,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I prefer JSON logs in production",
+          "timestamp": 1777006941.3173687
+        },
+        {
+          "role": "user",
+          "content": "Also configure environment-specific settings",
+          "timestamp": 1777006941.3175125
+        },
+        {
+          "role": "assistant",
+          "content": "I'll create separate config files for dev/staging/prod.",
+          "timestamp": 1777006941.3176181
+        }
+      ],
+      "message_count": 3,
+      "summary": "I prefer JSON logs in production... (+1 more)",
+      "topic_tags": [
+        "config"
+      ],
+      "trigger_role": "user",
+      "memory_type": "episodic",
+      "mood": "neutral",
+      "outcome": "",
+      "duration": 0.0002493858337402344
+    }
+  ],
+  "session_id": "bench_6c159ad0"
+}

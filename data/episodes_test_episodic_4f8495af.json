@@ -1,0 +1,80 @@
+{
+  "episodes": [
+    {
+      "episode_id": "ep_1777004931268",
+      "start_timestamp": 1777004931.2686975,
+      "last_timestamp": 1777004931.268737,
+      "messages": [
+        {
+          "role": "user",
+          "content": "User message 0",
+          "timestamp": 1777004931.2686975
+        },
+        {
+          "role": "assistant",
+          "content": "Assistant response 0",
+          "timestamp": 1777004931.268737
+        }
+      ],
+      "message_count": 2,
+      "summary": "User message 0",
+      "topic_tags": [],
+      "trigger_role": "user",
+      "memory_type": "episodic",
+      "mood": "productive",
+      "outcome": "",
+      "duration": 3.9577484130859375e-05
+    },
+    {
+      "episode_id": "ep_1777004931269",
+      "start_timestamp": 1777004931.2697957,
+      "last_timestamp": 1777004931.269825,
+      "messages": [
+        {
+          "role": "user",
+          "content": "User message 1",
+          "timestamp": 1777004931.2697957
+        },
+        {
+          "role": "assistant",
+          "content": "Assistant response 1",
+          "timestamp": 1777004931.269825
+        }
+      ],
+      "message_count": 2,
+      "summary": "User message 1",
+      "topic_tags": [],
+      "trigger_role": "user",
+      "memory_type": "episodic",
+      "mood": "productive",
+      "outcome": "",
+      "duration": 2.9325485229492188e-05
+    },
+    {
+      "episode_id": "ep_1777004931270",
+      "start_timestamp": 1777004931.2703693,
+      "last_timestamp": 1777004931.2703915,
+      "messages": [
+        {
+          "role": "user",
+          "content": "User message 2",
+          "timestamp": 1777004931.2703693
+        },
+        {
+          "role": "assistant",
+          "content": "Assistant response 2",
+          "timestamp": 1777004931.2703915
+        }
+      ],
+      "message_count": 2,
+      "summary": "User message 2",
+      "topic_tags": [],
+      "trigger_role": "user",
+      "memory_type": "episodic",
+      "mood": "productive",
+      "outcome": "",
+      "duration": 2.2172927856445312e-05
+    }
+  ],
+  "session_id": "test_episodic_4f8495af"
+}

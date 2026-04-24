@@ -1,0 +1,30 @@
+{
+  "episodes": [
+    {
+      "episode_id": "ep_1777006941128",
+      "start_timestamp": 1777006941.128688,
+      "last_timestamp": 1777006941.1518798,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What websites did I visit about machine learning?",
+          "timestamp": 1777006941.128688
+        },
+        {
+          "role": "assistant",
+          "content": "Based on your Chrome history, you visited several ML-related sites.",
+          "timestamp": 1777006941.1518798
+        }
+      ],
+      "message_count": 2,
+      "summary": "What websites did I visit about machine learning?",
+      "topic_tags": [],
+      "trigger_role": "user",
+      "memory_type": "episodic",
+      "mood": "neutral",
+      "outcome": "",
+      "duration": 0.02319169044494629
+    }
+  ],
+  "session_id": "bench_71c5e5fb"
+}

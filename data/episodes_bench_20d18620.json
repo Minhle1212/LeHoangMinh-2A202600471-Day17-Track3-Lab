@@ -1,0 +1,60 @@
+{
+  "episodes": [
+    {
+      "episode_id": "ep_1777009206765",
+      "start_timestamp": 1777009206.765722,
+      "last_timestamp": 1777009206.7659278,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Our API is returning 500 errors",
+          "timestamp": 1777009206.765722
+        },
+        {
+          "role": "assistant",
+          "content": "Let me investigate the server logs.",
+          "timestamp": 1777009206.7659278
+        }
+      ],
+      "message_count": 2,
+      "summary": "Our API is returning 500 errors",
+      "topic_tags": [
+        "code",
+        "error"
+      ],
+      "trigger_role": "user",
+      "memory_type": "episodic",
+      "mood": "neutral",
+      "outcome": "",
+      "duration": 0.00020575523376464844
+    },
+    {
+      "episode_id": "ep_1777009206767",
+      "start_timestamp": 1777009206.7671847,
+      "last_timestamp": 1777009206.7673247,
+      "messages": [
+        {
+          "role": "user",
+          "content": "The error started after the last deployment",
+          "timestamp": 1777009206.7671847
+        },
+        {
+          "role": "assistant",
+          "content": "I'll compare the recent changes.",
+          "timestamp": 1777009206.7673247
+        }
+      ],
+      "message_count": 2,
+      "summary": "The error started after the last deployment",
+      "topic_tags": [
+        "error"
+      ],
+      "trigger_role": "user",
+      "memory_type": "episodic",
+      "mood": "neutral",
+      "outcome": "",
+      "duration": 0.0001399517059326172
+    }
+  ],
+  "session_id": "bench_20d18620"
+}
